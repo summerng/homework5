@@ -195,13 +195,14 @@ header{
   header{
     /*Your code here again.*/  
     display: flex;
-    flex-wrap: nowrap;
+    flex-direction: row;
     justify-content: space-between;
   }
 
   .nav_links{
     /*Your code here again.*/  
     display:flex;
+    flex-direction: row;
     justify-content: space-between;
   }
 
@@ -215,8 +216,36 @@ header{
     flex-basis: 200px;
   }
   /*Your code here again.*/
-  /*You will want four selectors*/  
+  /*You will want four selectors*/ 
+  header {
+    align-items: center;
+   }
+  body {
+    background-image: none;
+  }
+  .gallery, #gallery {
+    display:none;
+  }
+
+  h2 > .gallery {
+    display:none;
+  }
+
+  header {
+    align-items: center;
+  }
+
+  }
+  .pricing{
+    align-items: flex-start;
+   }
+
 }
 
 /*Your code here again.*/ 
 /*Add media query to handle reduced-motion*/
+@media screen and (prefers-reduced-motion:reduce){
+  #logo{
+    animation: none;
+  }
+}
