@@ -203,7 +203,7 @@ header{
     /*Your code here again.*/  
     display:flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-end;
   }
 
   .nav_item a{
