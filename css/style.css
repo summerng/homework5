@@ -79,9 +79,7 @@ footer{
     flex-wrap: wrap;
     /*flex-direction: column;*/
     align-items: center;
-    justify-content: center;
-    
-
+    justify-content: center; 
 }
 
 .card {
@@ -93,7 +91,6 @@ footer{
   /*Take a look at flex-basis*/
   flex-basis: 400px;
   /*flex-wrap: wrap;*/
-
 }
 
 .card > header{
@@ -236,13 +233,11 @@ header{
   header {
     align-items: center;
   }
-
-  }
   .pricing{
     align-items: flex-start;
    }
-
 }
+
 
 /*Your code here again.*/ 
 /*Add media query to handle reduced-motion*/
